@@ -590,7 +590,7 @@ class DataAwal extends StatelessWidget {
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold)),
                             subtitle: Text(
-                                "Tanggal Lahir : ${age.tanggal_lahir}",
+                                "Lahir : ${age.tanggal_lahir}",
                                 style: GoogleFonts.lato(
                                     color: appWhite,
                                     fontSize: 16,
@@ -608,7 +608,7 @@ class DataAwal extends StatelessWidget {
                                 // height: size.height * .20,
                                 alignment: Alignment.topLeft,
                                 margin: EdgeInsets.symmetric(
-                                    horizontal: size.width * .15),
+                                    horizontal: size.width * .05),
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   crossAxisAlignment: CrossAxisAlignment.start,

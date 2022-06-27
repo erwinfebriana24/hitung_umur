@@ -43,6 +43,7 @@ class HomeController extends GetxController {
 
   void ageNow() {
     convert = DateTime.tryParse(formatted);
+    print(convert);
     dateDuration = AgeCalculator.age(convert);
     var data = dateDuration.toString();
     var splitData = data.split(" ");
